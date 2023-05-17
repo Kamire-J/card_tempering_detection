@@ -7,7 +7,7 @@ A pan card identification project using openCV to identify image and use the sav
 * Open command prompt and change your current path 
 to folder where you can find 'app.py' file.
 * Create environment by command given below-
-conda create -name <environment name>
+conda create -name <environment name>,
 you can use venv or virtualenv if you are not using conda.
 * Activate environment by command as follows-
 conda activate <environment name>
