@@ -13,7 +13,7 @@ class Config(object):
     DB_USERNAME = 'root'
     DB_PASSWORD = 'saboja'
 
-    UPLOADS = './static'
+    UPLOADS = 'main/static'
 
     SESSION_COOKIE_SECURE = True
 
@@ -30,7 +30,7 @@ class DevelopmentConfig(Config):
     DB_USERNAME = 'root'
     DB_PASSWORD = 'saboja'
 
-    UPLOADS = './static'
+    UPLOADS = 'main/static'
 
     SESSION_COOKIE_SECURE = True
 
@@ -43,7 +43,7 @@ class TestingConfig(Config):
     DB_USERNAME = 'root'
     DB_PASSWORD = 'saboja'
 
-    UPLOADS = './static'
+    UPLOADS = 'main/static'
 
     SESSION_COOKIE_SECURE = True
 
