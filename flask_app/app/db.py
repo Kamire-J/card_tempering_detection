@@ -3,7 +3,7 @@ import sqlite3
 import click 
 from flask import current_app, g 
 
-# Function to access database
+# Functions to access database
 def get_db():
     if 'db' not in g:
         g.db = sqlite3.connect(
