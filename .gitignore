@@ -4,6 +4,7 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 flask_app/flask_env/
+flask_app/.venv
 
 # Other files and folders
 .settings/
