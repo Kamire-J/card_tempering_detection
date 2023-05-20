@@ -1,18 +1,18 @@
 import os
 from os import environ
 
-class Config(object):
 
+class Config(object):
     DEBUG = False
     TESTING = False
-    
-    basedir    = os.path.abspath(os.path.dirname(__file__))
 
-    SECRET_KEY = 'pianalytix'
+    basedir = os.path.abspath(os.path.dirname(__file__))
+
+    SECRET_KEY = 'dev'
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "dev"
 
     UPLOADS = "./app/static/uploads"
 
@@ -23,12 +23,13 @@ class Config(object):
 class ProductionConfig(Config):
     pass
 
+
 class DevelopmentConfig(Config):
     DEBUG = True
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "dev"
 
     UPLOADS = "./app/static/uploads"
     SESSION_COOKIE_SECURE = False
@@ -39,11 +40,11 @@ class TestingConfig(Config):
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "dev"
 
-    UPLOADS = "/home/username/app/app/static/uploads"
+    UPLOADS = "./app/static/uploads"
     SESSION_COOKIE_SECURE = False
 
- 
+
 class DebugConfig(Config):
     DEBUG = False
