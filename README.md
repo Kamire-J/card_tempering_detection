@@ -17,3 +17,6 @@ python -m pip install -r requirements.txt
 python app.py
 You will get url copy it and paste in browser.
 * You have sample_data folder where you can get images to test.
+  
+ ### Frontend 
+![Screenshot from 2023-05-20 19-22-32](https://github.com/Kamire-J/card_tempering_detection/assets/69396901/dbbf562c-80ea-49b2-80c8-cc2f5fb133ce)
